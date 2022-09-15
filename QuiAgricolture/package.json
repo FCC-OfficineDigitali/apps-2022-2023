@@ -1,0 +1,82 @@
+{
+  "name": "client",
+  "homepage": ".",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.2",
+    "@mui/styled-engine-sc": "^5.6.1",
+    "@nekocode/use-shared-state": "^1.3.5",
+    "@react-leaflet/core": "^1.0.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@turf/turf": "^6.5.0",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "color-hash": "^2.0.1",
+    "convert-csv-to-json": "^1.3.3",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dompurify": "^2.3.6",
+    "esri-leaflet": "^3.0.8",
+    "express": "^4.18.1",
+    "gooey-react": "^1.1.0",
+    "iconv": "^3.0.1",
+    "iconv-lite": "^0.6.3",
+    "leaflet": "^1.8.0",
+    "leaflet-control-geocoder": "^2.4.0",
+    "material-ui-image": "^3.3.2",
+    "material-ui-search-bar": "^1.0.0",
+    "moment": "^2.29.3",
+    "mysql2": "^2.3.3",
+    "notistack": "^2.0.5",
+    "papaparse": "^5.3.2",
+    "raw-loader": "^4.0.2",
+    "react": "^18.1.0",
+    "react-cookie-consent": "^7.5.0",
+    "react-dom": "^18.1.0",
+    "react-esri-leaflet": "^2.0.1",
+    "react-jss": "^10.9.0",
+    "react-leaflet": "^3.1.0",
+    "react-leaflet-enhanced-marker": "^1.0.21",
+    "react-leaflet-markercluster": "^3.0.0-rc1",
+    "react-papaparse": "^4.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-tagcloud": "^2.3.1",
+    "sequelize": "^6.19.0",
+    "sha1": "^1.1.1",
+    "stream": "^0.0.2",
+    "styled-components": "^5.3.5",
+    "tss-react": "^3.6.2",
+    "use-between": "^1.3.4",
+    "util": "^0.12.4",
+    "web-vitals": "^2.1.4",
+    "windows-1252": "^3.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.17.12",
+    "html-loader": "^3.1.0"
+  }
+}

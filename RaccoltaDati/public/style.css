@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Graphik";
+  src: local("Graphik"), url(Graphik.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: local("Atlas Grotesk"), url(Grotesk.ttf) format("truetype");
+}
