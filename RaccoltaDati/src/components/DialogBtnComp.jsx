@@ -14,6 +14,7 @@ import AddIcon from "@mui/icons-material/Add";
 import { useAuth } from "../hooks/useAuth";
 import { LargerThanSm } from "../MediaQueries";
 import Axios from "axios";
+import moment from "moment";
 import { useSnackbar } from "notistack";
 import ipPortApi from "../ipPortApi";
 import { StyledFilledTextField, StyledOutlinedButton, StyledTextButton } from "../styles";
@@ -108,7 +109,7 @@ export default function DialogBtnComp(props) {
                 else {
                     setNome(data.data[0].nome);
                     setEta(data.data[0].eta == null ? "" : data.data[0].eta);
-                    setDataInserimentoViaggiatore(data.data[0].data_inserimento_viaggiatore ? data.data[0].data_inserimento_viaggiatore.substring(0, data.data[0].data_inserimento_viaggiatore.indexOf("T")) : "");
+                    setDataInserimentoViaggiatore(data.data[0].data_inserimento_viaggiatore ? moment(data.data[0].data_inserimento_viaggiatore).format("YYYY-MM-DD") : "");
                     setArrNazioneInViaggioDa(data.data[0].nazione_in_viaggio_da && data.data[0].nome_nazione_in_viaggio_da ? [data.data[0].nazione_in_viaggio_da, data.data[0].nome_nazione_in_viaggio_da] : null);
                     setArrComuneInViaggioDa(data.data[0].comune_in_viaggio_da && data.data[0].nome_comune_in_viaggio_da ? [data.data[0].comune_in_viaggio_da, data.data[0].nome_comune_in_viaggio_da] : null);
                     setArrNazioneDestinazione(data.data[0].nazione_destinazione && data.data[0].nome_nazione_destinazione ? [data.data[0].nazione_destinazione, data.data[0].nome_nazione_destinazione] : null);
