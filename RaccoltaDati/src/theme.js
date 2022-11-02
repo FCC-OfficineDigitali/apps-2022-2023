@@ -52,14 +52,16 @@ export default createTheme({
             fontWeight: "bold",
             fontSize: 17.5,
             lineHeight: "21px",
-            color: functionalBlackCamposampierese
+            color: functionalBlackCamposampierese,
+            overflowWrap: "anywhere"
         },
         data: {
             fontFamily: "Graphik",
             fontWeight: 400,
             fontSize: 13.5,
             lineHeight: "15px",
-            color: black
+            color: black,
+            overflowWrap: "anywhere"
         },
         updateFields: {
             fontFamily: "Atlas Grotesk",
