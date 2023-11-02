@@ -33,7 +33,7 @@ Nel dispositivo devono essere installati principalmente il runtime Javascript No
 
 Per poter usufruire in locale di una copia della versione digitale del Libro Dei Passaggi, è necessario mantenere attivo MySQL tramite XAMPP per utilizzare i due database MySQL i cui file .sql sono contenuti nella repository. Se non si conoscono le credenziali di alcun utente, è necessario crearne uno eseguendo per il database degli utenti una query dalla forma _INSERT INTO users (username, password) VALUES ("NomeUtente", "Password");_ dove _NomeUtente _va sostituito con il nome utente desiderato e dove _Password _va sostituito con il risultato della funzione [SHA-1](http://www.sha1-online.com/) applicata alla password desiderata.
 
-Per permettere una comunicazione corretta tra client-server-databases, è necessario modificare i file db.js e dbusers.js della cartella config dell’applicazione server, oltre che il file ipPortApi.js contenuto nella cartella src della webapp al fine di potersi riferire al server.
+Per permettere una comunicazione corretta tra client-server-databases, è necessario indicare le variabili d'ambiente necessarie creando un file .env nella cartella dell'applicazione server e modificare i file db.js e dbusers.js della cartella config dell’applicazione server, oltre che il file ipPortApi.js contenuto nella cartella src della webapp al fine di potersi riferire al server.
 
 Lanciare il server eseguendo dalla sua cartella il comando _node index.js_, poi lanciare la webapp eseguendo il comando _npm start_ dalla sua cartella. L’applicazione server ed il client si possono lanciare solo dopo aver installato le dipendenze necessarie tramite l’esecuzione del comando _npm install_ (e, in caso di errori, _npm install –force_) dalle loro relative cartelle.
 

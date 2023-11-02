@@ -36,7 +36,7 @@ Nel dispositivo devono essere installati principalmente il runtime Javascript No
 
 È necessario copiare nel proprio dispositivo le cartelle QuiEnterprises e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/app-mappe-e-raccolta](https://github.com/FCC-OfficineDigitali/app-mappe-e-raccolta).
 
-Per permettere una comunicazione corretta tra client e server, è necessario modificare il file ipPortApi.js contenuto nella cartella src della webapp al fine di potersi riferire al server.
+Per permettere una comunicazione corretta tra client e server, è necessario indicare le variabili d'ambiente necessarie creando un file .env nella cartella dell'applicazione server e modificare il file ipPortApi.js contenuto nella cartella src della webapp al fine di potersi riferire al server.
 
 Lanciare il server eseguendo dalla sua cartella il comando _node index.js_, poi lanciare la webapp eseguendo il comando _npm start_ dalla sua cartella. L’applicazione server ed il client si possono lanciare solo dopo aver installato le dipendenze necessarie tramite l’esecuzione del comando _npm install_ (e, in caso di errori, _npm install –force_) dalle loro relative cartelle.
 
