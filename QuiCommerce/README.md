@@ -30,7 +30,7 @@ L’applicazione server fornisce alla webapp i dati presenti in alcuni file .CSV
 
 I dati relativi alle aziende rappresentate sono stati estratti dai registri di Infocamere tramite acquisizione e sono stati poi arricchiti grazie a [QIBA](https://www.quantitas.it/it/prodotti/qiba/), uno strumento proprietario per il web-scraping e l’indicizzazione, mentre le coordinate funzionali alla rappresentazione su mappa sono state reperite mediante l’utilizzo di una API open source.
 
-3. Utilizzo in locale
+# 3. Utilizzo in locale
 
 Nel dispositivo devono essere installati principalmente il runtime Javascript Node.js ed il gestore di pacchetti [npm](https://www.nodeacademy.it/cose-npm-installazione-locale-globale-aggiornamento).
 
