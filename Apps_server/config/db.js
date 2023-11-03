@@ -1,3 +1,4 @@
+require("dotenv").config()
 const mysql = require("mysql")
 const db = mysql.createPool({
     //local
@@ -9,7 +10,7 @@ const db = mysql.createPool({
     host: "localhost",
 	  port: "3306",
     user: "od_libropassaggi",
-    password: "o_21H#-_21H8lk18lk1",
+    password: process.env.dbPassword,
     database: "od_libropassaggi",
     ssl: false,
   	secureAuth: true

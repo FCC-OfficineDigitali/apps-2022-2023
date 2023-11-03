@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: local("Graphik"), url(Graphik.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: local("Atlas Grotesk"), url(Grotesk.ttf) format("truetype");
+}
+
+.notistack-Snackbar {
+  min-width: 128px !important;
+}
