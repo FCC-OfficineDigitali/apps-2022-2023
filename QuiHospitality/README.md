@@ -4,7 +4,6 @@ QuiSiFa Impresa Turistica è una webapp che permette al pubblico di esplorare il
 
 Le aziende visualizzabili sono relative al settore alloggio e ristorazione.
 
-
 # 1. Tipologia di webapp ed utilizzo
 
 Trattandosi più precisamente di una [PWA](https://it.wikipedia.org/wiki/Progressive_Web_App), la webapp ha la possibilità di comportarsi su dispositivi mobili in maniera simile ad una vera e propria applicazione.
@@ -18,7 +17,6 @@ Si possono applicare filtri basati su sottosettori, parole chiave, comuni e dati
 Una [word cloud](https://it.wikipedia.org/wiki/Nuvola_di_etichette) permette di visualizzare le parole chiave più presenti nell’insieme di aziende visualizzate in un certo momento, mentre i colori dei punti visualizzati su mappa determinano le sottocategorie di appartenenza delle relative aziende.
 
 Risulta possibile scaricare una versione ridotta del dataset in formato .CSV che contiene i dati di tutte le aziende che la webapp può mostrare. Tra questi si possono notare ad esempio i link ad eventuali social network raggiungibili (Facebook, Twitter, Instagram…) di cui le singole aziende fanno uso, oltre agli indirizzi e gli eventuali siti web.
-
 
 # 2. Aspetti tecnici
 
@@ -34,16 +32,14 @@ I dati relativi alle aziende rappresentate sono stati estratti dai registri di I
 
 Nel dispositivo devono essere installati principalmente il runtime Javascript Node.js ed il gestore di pacchetti [npm](https://www.nodeacademy.it/cose-npm-installazione-locale-globale-aggiornamento).
 
-È necessario copiare nel proprio dispositivo le cartelle QuiHospitality e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/app-mappe-e-raccolta](https://github.com/FCC-OfficineDigitali/app-mappe-e-raccolta).
+È necessario copiare nel proprio dispositivo le cartelle QuiHospitality e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/apps-2023](https://github.com/FCC-OfficineDigitali/apps-2023).
 
 Per permettere una comunicazione corretta tra client e server, è necessario indicare le variabili d'ambiente necessarie creando un file .env nella cartella dell'applicazione server e modificare il file ipPortApi.js contenuto nella cartella src della webapp al fine di potersi riferire al server.
 
 Lanciare il server eseguendo dalla sua cartella il comando _node index.js_, poi lanciare la webapp eseguendo il comando _npm start_ dalla sua cartella. L’applicazione server ed il client si possono lanciare solo dopo aver installato le dipendenze necessarie tramite l’esecuzione del comando _npm install_ (e, in caso di errori, _npm install –force_) dalle loro relative cartelle.
 
-
 # 4. Crediti
 
 Lavoro sviluppato da Francesco Camporese, Jacopo Trabona e Luca Zanardelli di Quantitas S.R.L. in collaborazione con Federazione dei Comuni del Camposampierese - Officine Digitali (ente attuatore del progetto).
-
 
 ![Loghi](/mergedLogos.png)
