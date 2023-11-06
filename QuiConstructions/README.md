@@ -32,7 +32,7 @@ I dati relativi alle aziende rappresentate sono stati estratti dai registri di I
 
 Nel dispositivo devono essere installati principalmente il runtime Javascript Node.js ed il gestore di pacchetti [npm](https://www.nodeacademy.it/cose-npm-installazione-locale-globale-aggiornamento).
 
-È necessario copiare nel proprio dispositivo le cartelle QuiConstructions e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/apps-2023](https://github.com/FCC-OfficineDigitali/apps-2023).
+È necessario copiare nel proprio dispositivo le cartelle QuiConstructions e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/apps-2022-2023](https://github.com/FCC-OfficineDigitali/apps-2022-2023).
 
 Per permettere una comunicazione corretta tra client e server, è necessario indicare le variabili d'ambiente necessarie creando un file .env nella cartella dell'applicazione server e modificare il file ipPortApi.js contenuto nella cartella src della webapp al fine di potersi riferire al server.
 

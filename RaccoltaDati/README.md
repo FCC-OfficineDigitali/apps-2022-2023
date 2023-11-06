@@ -26,7 +26,7 @@ L’applicazione server si interfaccia con due basi di dati [MySQL](https://www.
 
 Nel dispositivo devono essere installati principalmente il runtime Javascript Node.js, il gestore di pacchetti [npm](https://www.nodeacademy.it/cose-npm-installazione-locale-globale-aggiornamento) e la piattaforma [XAMPP](https://www.apachefriends.org/it/index.html).
 
-È necessario copiare nel proprio dispositivo i file od_libropassaggi.sql e od_loginsystem.sql e le cartelle RaccoltaDati e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/apps-2023](https://github.com/FCC-OfficineDigitali/apps-2023).
+È necessario copiare nel proprio dispositivo i file od_libropassaggi.sql e od_loginsystem.sql e le cartelle RaccoltaDati e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/apps-2022-2023](https://github.com/FCC-OfficineDigitali/apps-2022-2023).
 
 Per poter usufruire in locale di una copia della versione digitale del Libro Dei Passaggi, è necessario mantenere attivo MySQL tramite XAMPP per utilizzare i due database MySQL i cui file .sql sono contenuti nella repository. Se non si conoscono le credenziali di alcun utente, è necessario crearne uno eseguendo per il database degli utenti una query dalla forma _INSERT INTO users (username, password) VALUES ("NomeUtente", "Password");_ dove \_NomeUtente \_va sostituito con il nome utente desiderato e dove \_Password \_va sostituito con il risultato della funzione [SHA-1](http://www.sha1-online.com/) applicata alla password desiderata.
 

@@ -26,7 +26,7 @@ L’applicazione server si interfaccia con una base di dati [MySQL](https://www.
 
 Nel dispositivo devono essere installati principalmente il runtime Javascript Node.js, il gestore di pacchetti [npm](https://www.nodeacademy.it/cose-npm-installazione-locale-globale-aggiornamento) e la piattaforma [XAMPP](https://www.apachefriends.org/it/index.html).
 
-È necessario copiare nel proprio dispositivo i file od_reservations.sql e le cartelle SmartLab e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/apps-2023](https://github.com/FCC-OfficineDigitali/apps-2023).
+È necessario copiare nel proprio dispositivo i file od_reservations.sql e le cartelle SmartLab e Apps_server, presenti nella repository raggiungibile attraverso l’URL [https://github.com/FCC-OfficineDigitali/apps-2022-2023](https://github.com/FCC-OfficineDigitali/apps-2022-2023).
 
 Per poter usufruire in locale di una copia di SmartLab, è necessario mantenere attivo MySQL tramite XAMPP per utilizzare il database MySQL il cui file .sql è contenuto nella repository.
 
