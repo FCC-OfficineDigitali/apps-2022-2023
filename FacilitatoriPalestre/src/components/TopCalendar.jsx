@@ -41,7 +41,7 @@ export default function TopCalendar(props) {
         <LocalizationProvider dateAdapter={AdapterMoment} adapterLocale="it">
             <UpdaterPopup showPopup={showPopup} closePopup={closePopup} calendarData={calendarData} hoursToExcludeInFixed={hoursToExcludeInFixed} hoursToExcludeInVariable={hoursToExcludeInVariable} selectedDate={selectedDate} setSelectedDate={setSelectedDate} invertToggleTriggerUpdateCalendar={invertToggleTriggerUpdateCalendar} userInfo={props.userInfo} />
             <Box width={sm ? "84%" : "100%"} height={sm ? "50%" : "100%"} display="flex" flexDirection="column" alignItems="center" justifyContent="center" pt={sm ? 0 : 2}>
-                <Typography gutterBottom={!sm} fontWeight="bold">Gestione</Typography>
+                <Typography gutterBottom={!sm} fontWeight="bold" textAlign="center">Disponibilità per il mese successivo</Typography>
                 <DateCalendar
                     value={selectedDate}
                     views={["day"]}

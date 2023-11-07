@@ -27,7 +27,7 @@ export default function BottomLeftCalendar(props) {
         <LocalizationProvider dateAdapter={AdapterMoment} adapterLocale="it">
             <ReadOnlyPopupFixed showPopup={showPopup} closePopup={closePopup} facilitator={bottomLeftCalendarData.facilitator} fixedResults={bottomLeftCalendarData.fixedResults.filter(e => moment(moment(e.availability_date).format("YYYY-MM-DD")).isSame(moment(selectedDate.format("YYYY-MM-DD"))))} selectedDate={selectedDate} />
             <Box width={sm ? "50%" : "100%"} height="100%" display="flex" flexDirection="column" alignItems="center" justifyContent="center">
-                <Typography gutterBottom={!sm} fontWeight="bold">Ore fisse</Typography>
+                <Typography gutterBottom={!sm} fontWeight="bold" textAlign="center">Orari fissi del facilitatore in palestra</Typography>
                 <DateCalendar
                     value={selectedDate}
                     views={["day"]}

@@ -35,7 +35,7 @@ export default function BottomRightCalendar(props) {
         <LocalizationProvider dateAdapter={AdapterMoment} adapterLocale="it">
             <ReadOnlyPopupVariable showPopup={showPopup} closePopup={closePopup} facilitator={bottomRightCalendarData.facilitator} variableResults={filteredVariableResults.filter(e => moment(moment(e.availability_date).format("YYYY-MM-DD")).isSame(moment(selectedDate.format("YYYY-MM-DD"))))} selectedDate={selectedDate} />
             <Box width={sm ? "50%" : "100%"} height="100%" display="flex" flexDirection="column" alignItems="center" justifyContent="center">
-                <Typography gutterBottom={!sm} fontWeight="bold">Disponibilità richieste</Typography>
+                <Typography gutterBottom={!sm} fontWeight="bold" textAlign="center">Impegni del facilitatore già prenotati per il mese in corso</Typography>
                 <DateCalendar
                     value={selectedDate}
                     views={["day"]}

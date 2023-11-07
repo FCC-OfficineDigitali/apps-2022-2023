@@ -27,7 +27,7 @@ export default function BottomCalendar(props) {
         <LocalizationProvider dateAdapter={AdapterMoment} adapterLocale="it">
             <ReadOnlyPopup showPopup={showPopup} closePopup={closePopup} selectedDate={selectedDate} setSelectedDate={setSelectedDate} userInfo={props.userInfo} />
             <Box width={sm ? "84%" : "100%"} height={sm ? "50%" : "100%"} display="flex" flexDirection="column" alignItems="center" justifyContent="center">
-                <Typography gutterBottom={!sm} fontWeight="bold">Visualizzazione</Typography>
+                <Typography gutterBottom={!sm} fontWeight="bold" textAlign="center">Impegni per il mese in corso</Typography>
                 <DateCalendar
                     value={selectedDate}
                     views={["day"]}

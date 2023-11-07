@@ -27,7 +27,7 @@ export default function TOPCalendar(props) {
         <LocalizationProvider dateAdapter={AdapterMoment} adapterLocale="it">
             <UpdaterPopup showPopup={showPopup} closePopup={closePopup} selectedDate={selectedDate} userInfo={props.userInfo} />
             <Box width={sm ? "84%" : "100%"} height={sm ? "50%" : "100%"} display="flex" flexDirection="column" alignItems="center" justifyContent="center" pt={sm ? 0 : 2}>
-                <Typography gutterBottom={!sm} fontWeight="bold">Richiedi disponibilità</Typography>
+                <Typography gutterBottom={!sm} fontWeight="bold" textAlign="center">Prenota impegni per il facilitatore su sue disponibilità per il mese successivo</Typography>
                 <DateCalendar
                     value={selectedDate}
                     views={["day"]}
