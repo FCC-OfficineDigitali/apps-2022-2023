@@ -106,7 +106,12 @@ export default function Sign() {
                             }}>Accedi</Button>
                     </form>
                     <Box textAlign="center">
-                        <Box pb={4} pt={2}>
+                        <Box pb={2} pt={2}>
+                            <Typography variant="infoText">
+                                <a title="Registrati" href="https://officinedigitali.fcc.veneto.it/SmartLabSignUp/" style={{ color: theme.palette.primary.main }}>Registrati</a>
+                            </Typography>
+                        </Box>
+                        <Box pb={2}>
                             <Typography variant="infoText">
                                 <a title="Apri la privacy policy" href=".#/privacyPolicy" target="_blank" rel="noopener noreferrer" style={{ color: theme.palette.primary.main }}>Privacy Policy</a>
                             </Typography>
